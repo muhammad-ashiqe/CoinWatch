@@ -1,0 +1,138 @@
+.hero {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 70vh;
+  padding-top: 40px;
+}
+
+.home {
+  padding-bottom: 50px;
+}
+.hero h1 {
+  font-size: 62px;
+}
+
+.hero p {
+  font-size: 18px;
+  padding: 0 30%;
+  font-weight: 400;
+}
+
+.hero .search-container {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 12px;
+  background: #fff;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.search-container input {
+  text-align: center;
+  border: none;
+  outline: none;
+  width: 200px;
+  font-size: 16px;
+}
+
+.search-container button {
+  padding: 4px;
+  width: 100px;
+  border-radius: 12px;
+  background: rgb(9, 9, 72);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.crypto-table {
+  max-width: 800px;
+  margin: auto;
+  background: rgb(14, 23, 84);
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+.table-layout {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+  padding: 15px 20px;
+  align-items: center;
+  border-bottom: 1px solid #918f8f;
+}
+
+.market-cap {
+  text-align: right;
+}
+
+.table-layout:last-child {
+  border: none;
+}
+
+.table-layout div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.table-layout img {
+  width: 35px;
+}
+
+.green {
+  color: rgb(22, 183, 22);
+  font-weight: 600;
+}
+
+.red {
+  color: rgb(250, 37, 37);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .table-layout {
+    grid-template-columns: 0.5fr 2fr 1fr 1fr;
+    gap: 10px;
+  }
+  .market-cap {
+    display: none;
+  }
+
+  .hero .search-container {
+    width: 80%;
+    
+  }
+  .hero .search-container button{
+    font-size: 13px;
+  }
+
+  .hero{
+    padding: 0;
+    min-height: 30vh;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+  
+  .hero p {
+    font-size: 10px;
+    padding: 0 15%;
+  }
+}
+
+
+/* light theme css */
+
+.light-crypto-table {
+  max-width: 800px;
+  margin: auto;
+  background: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin-bottom: 50px;
+}

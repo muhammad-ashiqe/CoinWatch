@@ -1,0 +1,114 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5%;
+    border-bottom: 0.2px solid #585757;
+    padding-bottom: 20px;
+   
+}
+span{
+    color: rgb(255, 213, 3);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+li{
+    cursor: pointer;
+
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+.nav-right{
+    display: flex;
+    gap: 30px;
+}
+
+select{
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding: 6px;
+    outline: none;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+option{
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding: 6px;
+    outline: none;
+    color: blue;
+    border-radius: 6px;
+    font-weight: 600;
+   
+}
+
+
+.mode{
+    background-color: #edecec;
+    padding: 10px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: rgb(4, 4, 74);
+    font-size: 20px;
+}
+
+
+
+/* lightmode css styles */
+
+.light-mode-navbar{
+    background: #fffdfd;
+    /* color: rgb(3, 3, 84); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5%;
+    border-bottom: 0.2px solid #585757;
+    padding-bottom: 20px;
+}
+
+.light-select{
+    border: 1px solid rgb(3, 3, 84);
+    background-color: transparent;
+    padding: 6px;
+    outline: none;
+    color:rgb(3, 3, 84);
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+@media(max-width : 768px) {
+    .navbar{
+        select{
+            padding: 3px;
+        }
+
+        ul{
+            display: none;
+        }
+        li{
+            display: none;
+        }
+
+        .option{
+            padding: 2px;
+        }
+    }
+}

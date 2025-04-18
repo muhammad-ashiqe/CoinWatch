@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mukta", sans-serif;;
+}
+
+a{
+  text-decoration: none;
+  color: inherit
+}
+
+.app{
+  min-height: 100vh;
+  color: #fff;
+  background:  linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+}
+
+.light-app{
+  min-height: 100vh;
+  color:rgb(4, 4, 101);
+  background:  linear-gradient(179.4deg, rgb(230, 242, 255) -16.9%, rgb(255, 241, 241) 119.9%);
+}
